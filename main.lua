@@ -11,7 +11,7 @@
 - Add Pedro
 	- X1 mult per blind played in a row. resets if blind is skipped.
 - Add Totally Balanced
-	- 1 in 5 chance to get heads, 8 heads in a row wins the run. can pay to upgrade odds,resets after each played hand.
+	- 1 in 5 chance to get heads, 5 heads in a row wins the run. can pay to permanently upgrade odds, resets after each played hand.
 - Add Hamburger (overcooked)
 	- Each round, burger gets cooked by a random amount between 1 and 3. after 15 points, grants X3 mult
 	- if it reaches 25, becomes burnt. eternal sticker, does nothing.
@@ -36,13 +36,6 @@
 
 -- Credits Tab --
 
-local function display_credits_card(key)
-	local card = Card(G.ROOM.T.x,G.ROOM.T.y,G.CARD_W*0.8,G.CARD_H*0.8,nil,G.P_CENTERS[key], { bypass_discovery_center = true, bypass_discovery_ui = true })
-	card.no_ui = true
-	card.states.drag.can = false
-	return card
-end
-
 SMODS.current_mod.extra_tabs = function()
 	return {
 		label = localize("tss_credits_label"),
@@ -58,7 +51,7 @@ SMODS.current_mod.extra_tabs = function()
 								{ n = G.UIT.T, config = { text = "slimestuff.", shadow = true, scale = 0.5, colour = G.C.BLUE } }
 							} },
 							--[[{ n = G.UIT.R, config = { align = "cm" }, nodes = {
-								{ n = G.UIT.O, config = { object = display_credits_card('j_tss_mtceleste') } }
+								{ n = G.UIT.O, config = { object = slimeutils.create_display_card('j_tss_mtceleste') } }
 							} }]]
 						} },
 						{ n = G.UIT.C, config = { align = "cm", padding = 0.2, minw = 5 }, nodes = {
@@ -69,7 +62,7 @@ SMODS.current_mod.extra_tabs = function()
 								{ n = G.UIT.T, config = { text = "Amber N. Q.", shadow = true, scale = 0.5, colour = G.C.BLUE } }
 							} },
 							--[[{ n = G.UIT.R, config = { align = "cm" }, nodes = {
-								{ n = G.UIT.O, config = { object = display_credits_card('j_tss_mtceleste') } }
+								{ n = G.UIT.O, config = { object = slimeutils.create_display_card('j_tss_mtceleste') } }
 							} }]]
 						} },
 						{ n = G.UIT.C, config = { align = "cm", padding = 0.2, minw = 5 }, nodes = {
@@ -86,8 +79,8 @@ SMODS.current_mod.extra_tabs = function()
 								{ n = G.UIT.T, config = { text = "Prodabic", shadow = true, scale = 0.4, colour = G.C.BLUE } }
 							} },
 							--[[{ n = G.UIT.R, config = { maxw = 3, align = "cm" }, nodes = {
-								{ n = G.UIT.O, config = { object = display_credits_card('j_tss_mtceleste') } },
-								{ n = G.UIT.O, config = { object = display_credits_card('j_tss_mtceleste') } }
+								{ n = G.UIT.O, config = { object = slimeutils.create_display_card('j_tss_mtceleste') } },
+								{ n = G.UIT.O, config = { object = slimeutils.create_display_card('j_tss_mtceleste') } }
 							} }]]
 						} }
 					} },
@@ -137,6 +130,7 @@ local jokers = {
 	--"funky",
 	"bribery",
 	"mtceleste",
+	"pride_month",
     "starla"
 }
 

@@ -146,6 +146,13 @@ return {
                     "ERR 404: Card Not Found",
                 }
             },
+            j_tss_pride = {
+                name = "Pride Month",
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult if",
+                    "Player is gay"
+                }
+            },
             j_tss_quick_fox = {
                 name = "Quick Fox",
                 text = {

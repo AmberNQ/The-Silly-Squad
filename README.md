@@ -1,5 +1,5 @@
 # The Silly Squad
-By Alpha N. Q.
+By Amber N. Q.
 
 Requirements:
 - [Steamodded (>=1.0.0~BETA-1224a)](https://github.com/Steamodded/smods/releases/latest)
@@ -29,7 +29,7 @@ each joker represents us and our ocs as people along with a few inside jokes:
   (This is a blatant copy of the Elle card from "[ellejokers.](https://github.com/ellestuff/ellejokers)". that is the entire joke about this card, and she knew of this before I even published this card in update 0.4.0.)
 - **And more!!**
 
-**2 New Seals**: Of course we cant just have jokers that dont do *something* funky to other cards, so we have two seals that get applied using two of the four jokers. (please note one of them will be turned into a sticker later down the line)
+**2 New Seals**: Of course we cant just have jokers that dont do *something* funky to other cards, so we have two seals that get applied using two of the four jokers.
 - Burned Seal
   - -10 Mult, x4 Mult
   - cards with this seal will be Burnt away(destroyed) after scoring 5 times
@@ -68,6 +68,6 @@ ah good, thank you so much! dont hesitate to DM me on any of my listed socials b
 
 # Where to find me:
 
-## [Bluesky](https://bsky.app/profile/alphaanimates.bsky.social)
-## [Instagram](https://www.instagram.com/alphaanimatez/)
+## [Bluesky](https://bsky.app/profile/amberanimatez.bsky.social)
+## [Instagram](https://www.instagram.com/amberanimatez/)
 ## [Tumblr](https://www.tumblr.com/alphaanimatez)

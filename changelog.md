@@ -256,3 +256,12 @@ they never did anything anyway tbf.
 - Added seal protection to Flame Noble and Heavenly Kitsune. essentially, if a card already has a seal, these jokers will not trigger for that card no matter the odds.
 
 - Fixed Burning Love restrictions to be more fair(removed The Head blind and a few jokers).
+
+## V 0.7.3
+
+- Updated Author name
+
+- Updated README links to point to the new, rebranded socials.
+
+- Added Pride Month
+  - X4 Mult if player is gay
