@@ -150,7 +150,7 @@ return {
                 name = "Pride Month",
                 text = {
                     "{X:mult,C:white}X#1#{} Mult if",
-                    "Player is gay"
+                    "Player is {C:tss_pride,E:1}gay"
                 }
             },
             j_tss_quick_fox = {

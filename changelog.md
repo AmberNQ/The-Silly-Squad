@@ -265,3 +265,7 @@ they never did anything anyway tbf.
 
 - Added Pride Month
   - X4 Mult if player is gay
+
+## V 0.7.3a
+
+- Made the Gay joker Gayer.

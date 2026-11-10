@@ -253,3 +253,20 @@ tss_badges = {
 	Xtra = { text = "Extras", colour = HEX('43524C'), text_colour = G.C.EDITION },
 	LoL = { text = "Love of Labor", colour = HEX('FF4DED') }
 }
+
+-- =======================MISC======================
+
+SMODS.Gradient{
+	key = "tss_pride",
+	colours = {
+		G.C.RED,
+		G.C.FILTER,
+		G.C.GOLD,
+		G.C.GREEN,
+		G.C.BLUE,
+		G.C.SUITS.Spades,
+		G.C.RARITY.Legendary
+	},
+	cycle = 3,
+	interpolation = "linear"
+}
